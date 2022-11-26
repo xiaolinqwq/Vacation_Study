@@ -7,7 +7,7 @@
 n个相同数据类型的有限序列
 ## <a id="2">顺序表</a>
 ### 动态数组
-类的声明
+>类的声明
 ```cpp
 class DYnamicArrays{
 public:
@@ -39,10 +39,16 @@ private:
 ```
 _size为当前数组大小,T类型指针_data指向所开辟的空间大小,_length为有效数据个数,当_length >= _size,会重新开辟一个2*_size的内存空间用来扩容,_flag为当前是否达到最大容量.
 (代码见 > code > part2 > DYnamicArrays.h)
+>时间复杂度
+
+FindByValue $ O(n) = n $
+Insert $ O(n) = n $
+Delete $ O(n) = n $
+FindByIndex $ O(n) = 1 $  
 ## <a id="3">链表</a>
 
 ## <font color=pink>学完了奖励一张二次元</font>
 <img src="./part2.jpg" />
-```<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=1&height=66"></iframe>
 
 
