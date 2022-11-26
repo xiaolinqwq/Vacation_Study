@@ -46,8 +46,61 @@ Insert $ O(n) = n $
 Delete $ O(n) = n $
 FindByIndex $ O(n) = 1 $  
 ## <a id="3">链表</a>
+> 类的声明
 
-## <font color=pink>学完了奖励一张二次元</font>
+```cpp
+template <typename T>
+class Lnode{
+private:
+    T _data;
+    Lnode<T>* _next;
+public:
+    Lnode(T data = 0, Lnode<T>* next = nullptr):
+        _data(data),
+        _next(next)
+    {
+
+    }
+    ~Lnode()
+    {
+        delete _next;
+    }
+    inline T GetData() {return _data;}
+friend class Linklist<T>;
+};
+```
+Lnode为链表节点类,并声明了链表Linklist友元
+```cpp
+template <typename T>
+class Linklist{
+public:
+    Linklist()
+    {
+        _root = new Lnode<T>(0,nullptr);
+        _length = 0;
+    }
+    ~Linklist()
+    {
+        delete _root;
+    }
+    inline void insert(T value, int index);
+    inline void Delete(int index);
+    inline Lnode<T>* Find_ByValue(T value);
+    inline Lnode<T>* Find_ByIndex(int index);
+    inline int length();
+    inline bool isempty();
+private:
+    Lnode<T>* _root;
+    int _length;
+};
+```
+代码见 > code > part2 > Linkedlist.h
+> 时间复杂度
+
+insert $ O(n) = 1 $
+Delete $ O(n) = 1 $
+Find_ByValue,Find_ByIndex $ O(n) = n $
+## <font color=pink>来张二次元</font>
 <img src="./part2.jpg" />
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=1&height=66"></iframe>
 

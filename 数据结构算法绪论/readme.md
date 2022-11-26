@@ -11,7 +11,7 @@ $ T(n) = f_1(n) + f_2(n) = MAX(O_1(n), O_2(n)) $
 $ T(n) = f_1(n)*f_2(n) = O_1(n)*O_2(n)$
 ## <a id="3">空间复杂度</a>
 内存
-## <font color=pink>学完了奖励一张二次元</font>
+## <font color=pink>来张二次元</font>
 <img src="./part1.jpg" />
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=1&height=66"></iframe>
 
