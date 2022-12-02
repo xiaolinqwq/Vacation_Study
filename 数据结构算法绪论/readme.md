@@ -13,6 +13,6 @@ $ T(n) = f_1(n)*f_2(n) = O_1(n)*O_2(n)$
 内存
 ## <font color=pink>来张二次元</font>
 <img src="./part1.jpg" />
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=2&id=1997650590&auto=0&height=66"></iframe>
 
 
