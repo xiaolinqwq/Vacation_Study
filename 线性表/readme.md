@@ -37,7 +37,7 @@ private:
     bool _flag;
 };
 ```
-_size为当前数组大小,T类型指针_data指向所开辟的空间大小,_length为有效数据个数,当_length >= _size,会重新开辟一个2*_size的内存空间用来扩容,_flag为当前是否达到最大容量.
+_size为当前数组大小,T类型指针_data指向所开辟的空间,_length为有效数据个数,当_length >= _size,会重新开辟一个2*_size的内存空间用来扩容,_flag为当前是否达到最大容量.
 (代码见 > code > part2 > DYnamicArrays.h)
 #### 时间复杂度
 
